@@ -1,0 +1,20 @@
+body {
+  background-color: #EAF6F6;
+  font-family: cambria;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 20%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+h1, h2 {
+  color: #66BFBF;
+}
+
+.profile-pic:hover{
+  transform:scale(1.2)
+}
