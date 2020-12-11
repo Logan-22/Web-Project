@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(90deg, white, gray, black);
+  font-family: cambria;
+  font-size: 60px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px,200px));
+  grid-template-rows: repeat(auto-fit, minmax(100px,200px));
+  grid-gap: 20px 20px;
+  grid-template-areas:
+  "Header Header Header"
+  "Advert Content Content"
+  "Footer Footer Footer";
+}
+
+div>div {
+  width: 100%;
+  height: 150px;
+  border: solid 10px;
+  border-color: purple;
+}
+
+.itm1 {
+  background-color: red;
+}
+
+.itm2 {
+  background-color: green;
+}
+
+.itm3 {
+  background-color: blue;
+}
+
+.itm4 {
+  background-color: cyan;
+}
+
+.itm5 {
+  background-color: yellow;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans"cambria;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  width: 100%;
+  overflow : hidden;
+}
+
+.bottom-circle {
+  position: absolute;
+  left: 650px;
+  top: 350px;
+}
+
+.card {
+  position: absolute;
+  left: 500px;
+  width: 50%;
+}
+
+.top-circle {
+  position: absolute;
+  right: 700px;
+  bottom: 200px;
+}
